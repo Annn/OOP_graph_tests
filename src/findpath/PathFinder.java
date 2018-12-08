@@ -133,6 +133,9 @@ public class PathFinder implements PathInterface {
         return value;
     }
 
+    /*
+    implementation of the Dijkstra's algorithm
+     */
     private Integer[] Dijkstra(Graph graph, int node) {
 
         // 1  function Dijkstra(Graph, source):
@@ -206,7 +209,6 @@ public class PathFinder implements PathInterface {
         return previous;
     }
 
-
     /*
     returns the shortest path (as codes of nodes) between origin and destination
      */
@@ -233,10 +235,8 @@ public class PathFinder implements PathInterface {
     }
 
     /*
-    metoda zwracajaca rozkodowany ciag znakow, które sa przechowywane przez
-    poszczegolne wezly w najkrotszej sciezce pomiedzy dwoma wezlami oznaczonymi
-    jako beginingNode oraz destinationNode
-    */
+    returns the decoded values of nodes for the shortest path between origin and destination
+     */
     public String getPathString(Graph graph, int originNode, int destinationNode) {
         String pathString = "";
         ArrayList<Integer> path = findPath(graph, originNode, destinationNode);
