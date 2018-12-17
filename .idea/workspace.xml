@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32da7ba-b594-4deb-8a33-92a84c0fc3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.~lock.findPath.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/findPath.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findpath/PathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findpath/PathFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/PathFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/PathFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/PathInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/PathInterface.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +17,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1519079998">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="2" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="559" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="559" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/findpath/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="210">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -29,15 +70,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/findpath/PathFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="241" column="22" selection-start-line="241" selection-start-column="22" selection-end-line="241" selection-end-column="22" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#buildGraph#0;class#PathFinder#0" />
-                <element signature="method#toDecimal#0;class#PathFinder#0" />
-                <element signature="method#decompress#0;class#PathFinder#0" />
-                <element signature="method#Dijkstra#0;class#PathFinder#0" />
-                <element signature="method#findPath#0;class#PathFinder#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/findpath/PathFinderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1206">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/findpath/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,6 +118,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -63,14 +133,21 @@
         <option value="$PROJECT_DIR$/src/findpath/Graph.java" />
         <option value="$PROJECT_DIR$/src/findpath/Main.java" />
         <option value="$PROJECT_DIR$/src/findpath/PathFinder.java" />
+        <option value="$PROJECT_DIR$/src/findpath/PathFinderTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="1299" />
-    <option name="height" value="741" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="82" />
+    <option name="y" value="23" />
+    <option name="width" value="1358" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -78,6 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,14 +179,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544308289607" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545049658153" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="findpath" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,20 +214,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="findpath.Main" />
+  <component name="RunManager" selected="JUnit.PathFinderTest.findPath">
+    <configuration name="PathFinderTest.decompressTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP6" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="findpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="findpath" />
+      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="METHOD_NAME" value="decompressTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PathFinderTest.decompressTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="findpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="findpath" />
+      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="METHOD_NAME" value="decompressTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathFinderTest.decompressTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="findpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="findpath" />
+      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="METHOD_NAME" value="decompressTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathFinderTest.findPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="findpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="findpath" />
+      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="METHOD_NAME" value="findPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathFinderTest.getPathStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="findpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="findpath" />
+      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="METHOD_NAME" value="getPathStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PathFinderTest.findPath" />
+      <item itemvalue="JUnit.PathFinderTest.decompressTest1" />
+      <item itemvalue="JUnit.PathFinderTest.decompressTest2" />
+      <item itemvalue="JUnit.PathFinderTest.decompressTest3" />
+      <item itemvalue="JUnit.PathFinderTest.getPathStringTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PathFinderTest.findPath" />
+        <item itemvalue="JUnit.PathFinderTest.getPathStringTest" />
+        <item itemvalue="JUnit.PathFinderTest.decompressTest3" />
+        <item itemvalue="JUnit.PathFinderTest.decompressTest2" />
+        <item itemvalue="JUnit.PathFinderTest.decompressTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -150,31 +324,68 @@
       <updated>1544215390423</updated>
       <workItem from="1544215403498" duration="1951000" />
       <workItem from="1544288581005" duration="16616000" />
+      <workItem from="1544442951377" duration="1450000" />
+      <workItem from="1544808949024" duration="605000" />
+      <workItem from="1544986393425" duration="5228000" />
+      <workItem from="1545047680498" duration="1963000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PathFinderTest_decompressTest2 - 2018.12.17 at 13h 19m 56s.xml">
+      <configuration name="PathFinderTest.decompressTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_decompressTest3 - 2018.12.17 at 13h 20m 03s.xml">
+      <configuration name="PathFinderTest.decompressTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_getPathStringTest - 2018.12.17 at 13h 21m 15s.xml">
+      <configuration name="PathFinderTest.getPathStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_findPath - 2018.12.17 at 13h 21m 26s.xml">
+      <configuration name="PathFinderTest.findPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_findPath - 2018.12.17 at 13h 23m 03s.xml">
+      <configuration name="PathFinderTest.findPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_findPath - 2018.12.17 at 13h 23m 39s.xml">
+      <configuration name="PathFinderTest.findPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_findPath - 2018.12.17 at 13h 24m 44s.xml">
+      <configuration name="PathFinderTest.findPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_findPath - 2018.12.17 at 13h 25m 49s.xml">
+      <configuration name="PathFinderTest.findPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_findPath - 2018.12.17 at 13h 27m 02s.xml">
+      <configuration name="PathFinderTest.findPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathFinderTest_findPath - 2018.12.17 at 13h 27m 25s.xml">
+      <configuration name="PathFinderTest.findPath" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18567000" />
+    <option name="totallyTimeSpent" value="27813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="82" y="23" width="1358" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.096568234" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.09902597" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.09863014" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.1335505" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.35068494" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -188,10 +399,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/findpath/PathInterface.java">
@@ -204,42 +419,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/findpath/Graph.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/findpath/PathFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="241" column="22" selection-start-line="241" selection-start-column="22" selection-end-line="241" selection-end-column="22" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#buildGraph#0;class#PathFinder#0" />
-            <element signature="method#toDecimal#0;class#PathFinder#0" />
-            <element signature="method#decompress#0;class#PathFinder#0" />
-            <element signature="method#Dijkstra#0;class#PathFinder#0" />
-            <element signature="method#findPath#0;class#PathFinder#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/findpath/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP6.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/findpath/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="210">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/findpath/PathFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
