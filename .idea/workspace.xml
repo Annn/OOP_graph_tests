@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32da7ba-b594-4deb-8a33-92a84c0fc3e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/PathFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/PathFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP6/findpath/PathInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP6/findpath/PathInterface.class" afterDir="false" />
-    </list>
+    <list default="true" id="c32da7ba-b594-4deb-8a33-92a84c0fc3e1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +39,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="559" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="559" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -188,11 +182,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545049674748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545070165026" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -219,12 +216,12 @@
       <module name="OOP6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="findpath.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="findpath" />
-      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PathFinderTest" />
       <option name="METHOD_NAME" value="decompressTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -235,12 +232,12 @@
       <module name="OOP6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="findpath.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="findpath" />
-      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PathFinderTest" />
       <option name="METHOD_NAME" value="decompressTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -251,12 +248,12 @@
       <module name="OOP6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="findpath.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="findpath" />
-      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PathFinderTest" />
       <option name="METHOD_NAME" value="decompressTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -267,12 +264,12 @@
       <module name="OOP6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="findpath.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="findpath" />
-      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PathFinderTest" />
       <option name="METHOD_NAME" value="findPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -283,12 +280,12 @@
       <module name="OOP6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="findpath.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="findpath" />
-      <option name="MAIN_CLASS_NAME" value="findpath.PathFinderTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PathFinderTest" />
       <option name="METHOD_NAME" value="getPathStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -327,8 +324,23 @@
       <workItem from="1544442951377" duration="1450000" />
       <workItem from="1544808949024" duration="605000" />
       <workItem from="1544986393425" duration="5228000" />
-      <workItem from="1545047680498" duration="1963000" />
+      <workItem from="1545047680498" duration="2220000" />
     </task>
+    <task id="LOCAL-00001" summary="Tests">
+      <created>1545049691857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545049691857</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tests">
+      <created>1545049737304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545049737304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -364,18 +376,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27813000" />
+    <option name="totallyTimeSpent" value="28070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="23" width="1358" height="822" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.09863014" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -385,7 +396,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.35068494" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.35068494" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -407,6 +418,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/findpath/PathInterface.java">

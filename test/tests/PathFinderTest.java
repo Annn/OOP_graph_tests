@@ -1,5 +1,7 @@
-package findpath;
+package tests;
 
+import findpath.Graph;
+import findpath.PathFinder;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
